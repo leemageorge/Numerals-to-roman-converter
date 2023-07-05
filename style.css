@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Ysabeau+SC:wght@400;700;900&display=swap');
+
+
+/* css reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+body{
+    background-color:#b298dc;
+}
+
+.container{
+    background-color: #a663cc;
+    box-shadow: 5px 5px 2px #b298dc;
+    width:min(90%, 650px);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.5);
+    padding:80px;
+}
+.input-wrapper{
+    display: flex;
+
+
+}
+#input{
+    background-color: #d4b8e4;
+    width:100%;
+    padding:10px;
+    font-size: 22px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border:none;
+    outline:none;
+    color:#351448;
+    font-weight: 900;
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.5);
+    font-family:Helvetica, sans-serif;
+    
+}
+#input::placeholder{
+    color:#bf9ad4;
+    font-weight: 200;
+}
+
+#cta-btn{
+    font-size: 25px;
+    background-color:#b473da;
+    color:#351448;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding:6px;
+    border: none;
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0,0.5);
+    outline: none;
+    cursor: pointer;
+    font-weight: 900;
+   
+  
+}
+#output{
+    text-align: center;
+    margin-top: 20px;;
+    font-size: 25px;
+    font-weight: 600;
+    max-width:500px;
+}
+#error-msg{
+    background-color: #351448;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 25px;
+    color:#e8c4fc;
+    
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-weight: 800; 
+
+}
